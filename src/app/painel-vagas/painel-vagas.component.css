@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.formulario-cadastro{
+    height: 600px;;
+    width: 100%;
+    display: flex;
+    flex-direction: column ;
+    justify-content: space-evenly;
+    align-items: center;
+
+    
+}
+
+
+.buttons_form{
+    width: 400px;
+    height:50px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.campos_prenchimento>input{
+    display: flex;
+    flex-direction:column;
+    justify-content: flex-end;
+    width: 400px;
+}
